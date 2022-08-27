@@ -6,17 +6,19 @@ import About from "./pages/About";
 import Accollades from "./pages/Accolades";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <Container>
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/accollades" element={<Accollades />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </Container>

@@ -2,6 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import test from "../Images/test.png";
 import test2 from "../Images/test2.png";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   const ProjectCards = [
@@ -17,23 +18,32 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="projects">
-      <h2>Projects</h2>
-      <div className="wrapper">
-        {ProjectCards.map((item) => {
-          return (
-            <div>
-              <Card>
-                <Card.Img variant="top" src={item.image} />
-                <Card.Body>
-                  <Card.Title>{item.name}</Card.Title>
-                </Card.Body>
-              </Card>
-            </div>
-          );
-        })}
+    <motion.div
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      exit={{ scaleY: 0 }}
+    >
+      <div className="individualCards">
+        <h2>Projects</h2>
+        <div className="wrapper">
+          {ProjectCards.map((item) => {
+            return (
+              <motion.div
+                key={item.id}
+                whileHover={{ scale: 1.2, transition: { duration: 0.5 } }}
+              >
+                <Card>
+                  <Card.Img variant="top" src={item.image} />
+                  <Card.Body>
+                    <Card.Title>{item.name}</Card.Title>
+                  </Card.Body>
+                </Card>
+              </motion.div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -17,4 +17,4 @@ The GitHub repository for this project can be found here: [link to GitHub reposi
 
 ## Site
 
-The deployed portfolio can be found here: [Deployed Site ](https://okapikid.github.io/my-react-portfolio/)
+The deployed portfolio can be found here: [Deployed Site ](https://okapikid.github.io/My-React-Portfolio/)

@@ -7,6 +7,7 @@ import Accollades from "./pages/Accolades";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           </Routes>
         </AnimatePresence>
       </Container>
+      <Footer />
     </>
   );
 }

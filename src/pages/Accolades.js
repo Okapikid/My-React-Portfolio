@@ -24,7 +24,7 @@ const Accolades = () => {
       exit={{ scaleY: 0 }}
     >
       <div className="individualCards">
-        <h2>Projects</h2>
+        <h2>Accollades</h2>
         <div className="wrapper">
           {AccolladesCards.map((item) => {
             return (

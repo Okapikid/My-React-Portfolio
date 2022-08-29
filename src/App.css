@@ -1,3 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #4356fc;
+  color: #e4009f;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: justify;
+}
+
+a:hover,
+a:active {
+  color: #e4009f !important;
+}
+
+h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.fixed-top {
+  background-color: #001cff;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 0px, 10%;
+  font-size: 4em;
+  justify-content: center;
+  height: 100vh;
+  color: #e4009f;
+}
+
+.home {
+  margin-bottom: 25px;
+}
+
+.name {
+  color: #ff0dcb;
+  font-size: 7rem;
+}
+
+.about,
+.contact,
+.individualCards {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.individualCards h2 {
+  font-size: 5em;
+}
+
+.contact {
+  width: 100;
+  text-align: left;
+  margin: 150px auto 0;
+}
+
+.contact-data {
+  border-left: 1px solid #ff0dcb;
+  padding-left: 30px;
+  display: block;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.contact-data p {
+  text-align: left;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0 20px 0;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 .App {
   text-align: center;
 }
@@ -22,6 +125,26 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media (max-width: 800px) {
+  .home {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home {
+    font-size: 2rem;
+  }
+  .name {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
 }
 
 .App-link {

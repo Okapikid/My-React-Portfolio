@@ -8,7 +8,6 @@ const Contact = () => {
       <Row>
         <Col>
           <div class="container">
-            <h1>FormSubmit Demo</h1>
             <form
               target="_blank"
               action="https://formsubmit.co/auggie@okapikid.com"
@@ -50,36 +49,6 @@ const Contact = () => {
               </button>
             </form>
           </div>
-          {/* <div className="contact-form">
-            <Form onSubmit={handleSubmit}>
-              <FormGroup className="mb-3">
-                <FormLabel>Name</FormLabel>
-                <FormControl
-                  required
-                  type="test"
-                  placeholder="Name"
-                ></FormControl>
-              </FormGroup>
-              <FormGroup className="mb-3" controlId="validation">
-                <FormLabel>Email</FormLabel>
-                <FormControl
-                  required
-                  type="test"
-                  placeholder="Email"
-                ></FormControl>
-              </FormGroup>
-              <FormGroup className="mb-3">
-                <FormLabel>Message</FormLabel>
-                <FormControl
-                  required
-                  as="textarea"
-                  type="test"
-                  placeholder="Message"
-                ></FormControl>
-              </FormGroup>
-              <Button type="submit">Submit Form</Button>
-            </Form>
-          </div> */}
         </Col>
         <Col>
           <div className="contact-data">

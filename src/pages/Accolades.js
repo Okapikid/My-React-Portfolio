@@ -8,12 +8,12 @@ const Accolades = () => {
   const AccolladesCards = [
     {
       id: 1,
-      name: "test",
+      name: "COMING SOON",
       image: test,
     },
     {
       id: 2,
-      name: "test2",
+      name: "COMING SOON",
       image: test2,
     },
   ];

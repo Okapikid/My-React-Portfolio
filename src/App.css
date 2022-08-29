@@ -24,6 +24,10 @@ h1 {
   margin: 35px 0 20px 0 !important;
 }
 
+footer {
+  justify-content: center;
+}
+
 .navbar {
   padding: 20px;
 }
@@ -108,6 +112,36 @@ h1 {
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.bio {
+  color: #fff;
+  font-size: x-large;
+}
+
+.socials {
+  padding: 25px 50px;
+  justify-content: space-between;
+}
+
+a.socials {
+  margin: 0 1rem;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.instagram {
+  color: #fcaf45;
+}
+
+a.github {
+  color: #000;
 }
 
 @media (prefers-reduced-motion: no-preference) {

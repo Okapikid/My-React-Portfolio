@@ -18,8 +18,8 @@ function App() {
       <Container>
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>
-            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/" element={<Home />} />
             <Route path="/accollades" element={<Accollades />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />

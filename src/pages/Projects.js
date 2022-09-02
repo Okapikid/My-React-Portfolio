@@ -5,7 +5,7 @@ import rerun from "../Images/rerun.png";
 import ecomm from "../Images/ecomm.png";
 import noteTaker from "../Images/noteTaker.png";
 import teamProfiler from "../Images/teamProfiler.png";
-import accessibleTimes from "../Images/accessibleTimes.png";
+import smallChange from "../Images/smallChange.png";
 import quiz from "../Images/quiz.png";
 
 const rerunGH = "https://github.com/Ashley1Thompson/rerun-game";
@@ -23,6 +23,8 @@ const accessibleTimesDeploy =
   "https://chromodyne.github.io/the_accessible_times/";
 const quizGH = "https://github.com/Okapikid/Coding-Quiz/";
 const quizDeploy = "https://okapikid.github.io/Coding-Quiz/";
+const smallChangeGH = "https://github.com/Ashley1Thompson/small-change";
+const smallChangeDeploy = "";
 
 const Projects = () => {
   const ProjectCards = [
@@ -63,9 +65,9 @@ const Projects = () => {
     },
     {
       id: 6,
-      name: "The Accessible Times",
-      image: accessibleTimes,
-      gitHub: accessibleTimesGH,
+      name: "Small Change",
+      image: smallChange,
+      gitHub: smallChangeGH,
       deploy: accessibleTimesDeploy,
     },
   ];
